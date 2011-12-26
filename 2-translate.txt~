@@ -4,7 +4,6 @@ Previous Step: Export
 Next Step: Despam
 
 The Mediawiki commits need to be translated into commits suitable for Git and Ikiwiki.
-
 Flatten the XML
 
 Mediawiki produces XML like
@@ -40,7 +39,9 @@ look something like this:
       xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ 
       http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
 
-Note your XML dump's version, which is something like "export-x.x". If your XML's version is not 0.4, you'll need to edit iki-reformat.xsl. Open up iki-reformat.xsl in a text editor, and you'll see this tag at the top:
+If your XML's version is not 0.4, you'll need to edit
+iki-reformat.xsl first. Open up
+iki-reformat.xsl in a text editor, and you'll see this tag at the top:
 
       <xsl:stylesheet
          xmlns="http://www.mediawiki.org/xml/export-0.4/"

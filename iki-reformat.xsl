@@ -1,6 +1,6 @@
 <xsl:stylesheet
-   xmlns="http://www.mediawiki.org/xml/export-0.3/"
-   xmlns:mw="http://www.mediawiki.org/xml/export-0.3/"
+   xmlns="http://www.mediawiki.org/xml/export-0.4/"
+   xmlns:mw="http://www.mediawiki.org/xml/export-0.4/"
    exclude-result-prefixes="mw"
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
