@@ -98,17 +98,7 @@ If you want to import files, make sure to save all the pages from the Images nam
    $ mkdir images
    $ scp -r me@myhost.com:wiki/images images
 
-If you don't have access to the wiki's FTP server, no worries. You can also use the included "wikix" script with the XML dumps you got. Go to the wikix folder and run this command:
-
-   $ wikix -p < ../name_of_xml_file.xml > script.out &
-
-To start the download, use this script:
-
-   $ ./image_sh
-
-Repeat these steps for each of your XML dumps.
-
-NOTE: Mediawiki also supports a hashed images directory, with seperate folders. My code doesn't deal with that. You can write the code to fix that but, unless you have more than a million files to import, it's easiest to flatten all the files down to a single directory.
+NOTE: I think Mediawiki also supports a hashed images directory. My code doesn't deal with that. You can write the code to fix that but, unless you have more than a million files to import, it's easiest to flatten all the files down to a single directory.
 Export Complete!
 
 You should now have all edits for all pages that you care about sitting in a few large XML files, and all images and files that you care about sitting in images.
